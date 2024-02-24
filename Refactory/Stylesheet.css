@@ -433,6 +433,39 @@ footer{
 		display: none;
 	}
 }
-@media (max-width: 400px){
-	
+@media (max-width: 500px){
+	.mini_dashboard,
+	.recent_lessons_main_icon_container,
+	.lesson_progress_bar_container,
+	.recent_lessons_icon_container,
+	.archivement_buttons_container,
+	.right_dashboard{
+		display: none;
+	}
+	.resume_lesson_main_button,
+	.resume_lesson_button{
+		display: flex;
+		width: 100%;
+		align-self: normal;
+	}
+	.recent_lessons_main_details_container,
+	.recent_lessons_details_container{
+		flex-wrap: wrap;
+	}
+	.details_main,
+	.details_recent_lessons{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.footer_container{
+		flex-direction: column;
+	}
+	.column_1,
+	.column_2,
+	.column_3,
+	.column_4{
+		display: flex;
+		width: 100%;
+	}
 }
