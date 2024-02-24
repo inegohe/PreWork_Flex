@@ -1,3 +1,7 @@
+/* global CSS */
+*{
+	font-family: calibri;
+}
 /* header styles */
 header{
 	display: flex;
@@ -28,7 +32,6 @@ header{
 	padding-left: 20px;
 }
 #menu_item{
-	font-family: calibri;
 	padding: 15px 20px 15px 20px ;
 	text-decoration: none;
 }
@@ -53,7 +56,6 @@ header{
 }
 .user_info{
 	display: inline-flex;
-	font-family: calibri;
 	color: #38494f;
 }
 .down_arrow_container{
@@ -105,14 +107,12 @@ header{
 	justify-content: space-between;
 }
 .left_dashboard{
-	font-family: calibri;
 	display: inline-flex;
 	flex-direction: column;
 	width: 72%;
 	height: 100%;
 }
 .right_dashboard{
-	font-family: calibri;
 	display: inline-flex;
 	width: 28%;
 	height: 100%;
@@ -142,11 +142,9 @@ header{
 }
 .Exercise_details{
 	height: 100%;
-	font-family: calibri;
 }
 .Lesson_details{
 	height: 100%;
-	font-family: calibri;
 }
 ._separator{
 	display: inline-flex;
@@ -249,7 +247,6 @@ progress::-webkit-progress-value{
 	border-radius: 5px;
 }
 #sub_head{
-	font-family: Calibri;
 	font-size: 20px;
 }
 .calendar_container{
@@ -322,7 +319,6 @@ footer{
 .footer_container{
 	width: 85%;
 	justify-content: space-between;
-	font-family: calibri;
 }
 .column_1{
 	width: 30%;
@@ -350,7 +346,6 @@ footer{
 }
 /*slide page*/
 .body_container{
-	font-family: Calibri;
 	display: flex;
 	width: 100%;
 	height: auto;
