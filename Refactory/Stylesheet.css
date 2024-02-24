@@ -446,6 +446,7 @@ footer{
 	.recent_lessons_main_details_container,
 	.recent_lessons_details_container{
 		flex-wrap: wrap;
+		padding: 10px 10px ;
 	}
 	.details_main,
 	.details_recent_lessons{
