@@ -411,3 +411,28 @@ footer{
 	width: 100px;
 	height: 100px;
 }
+/* Responsiveness */
+@media (max-width: 800px){
+	.dashboard{
+		flex-wrap: wrap;
+	}
+	.left_dashboard{
+		width: 100%;
+		height: auto;
+	}
+	.right_dashboard{
+		width: 100%;
+		height: auto;
+		padding-left: 0px;
+	}
+	.page_links_container, 
+	.user_info,
+	.down_arrow_container
+	.profile_separator_container,
+	.notifcon_container{
+		display: none;
+	}
+}
+@media (max-width: 400px){
+	
+}
