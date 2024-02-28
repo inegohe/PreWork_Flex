@@ -1,9 +1,10 @@
 /* global CSS */
-*{
+* {
 	font-family: calibri;
 }
+
 /* header styles */
-header{
+header {
 	display: flex;
 	justify-content: space-between;
 	height: 50px;
@@ -14,7 +15,8 @@ header{
 	position: fixed;
 	z-index: 1;
 }
-.logo_1_container{
+
+.logo_1_container {
 	font: bolder 30px Calibri;
 	justify-content: center;
 	align-items: center;
@@ -22,104 +24,124 @@ header{
 	width: 200px;
 	background-color: #38494f;
 }
-.logo_1_container:hover{
+
+.logo_1_container:hover {
 	background-color: rgb(99, 232, 234);
 }
-.page_links_container{
+
+.page_links_container {
 	width: 500px;
 	display: inline-flex;
 	align-items: center;
 	padding-left: 20px;
 }
-#menu_item{
-	padding: 15px 20px 15px 20px ;
+
+#menu_item {
+	padding: 15px 20px 15px 20px;
 	text-decoration: none;
 }
-#menu_item:hover{
+
+#menu_item:hover {
 	background-color: rgba(210, 213, 255, 0.3);
 }
-.right_header{
+
+.right_header {
 	display: inline-flex;
 	height: 50px;
 }
-.left_header{
+
+.left_header {
 	display: inline-flex;
 	justify-content: right;
 	width: 300px;
 }
-.acc_avator{
+
+.acc_avator {
 	height: 50px;
 	width: 50px;
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 }
-.user_info{
+
+.user_info {
 	display: inline-flex;
 	color: #38494f;
 }
-.down_arrow_container{
+
+.down_arrow_container {
 	display: inline-flex;
 	width: 10px;
 	padding-right: 10px;
 	justify-content: center;
 }
-.profile_separator_container{
+
+.profile_separator_container {
 	width: 2px;
 	display: inline-flex;
 	justify-content: left;
 	align-items: center;
 }
-.profile_separator{
+
+.profile_separator {
 	height: 20px;
 	width: 2px;
 	background-color: rgba(201, 201, 196, 0.7);
 }
-.notifcon_container{
+
+.notifcon_container {
 	display: inline-flex;
 	height: 50px;
 	width: 50px;
 	justify-content: center;
 	align-items: center;
 }
-.user_dropdown_trigger_container{
+
+.user_dropdown_trigger_container {
 	display: inline-flex;
 }
-.user_dropdown_trigger{
+
+.user_dropdown_trigger {
 	display: inline-flex;
 	text-decoration: none;
 }
-.user_dropdown_trigger:hover{
+
+.user_dropdown_trigger:hover {
 	background-color: rgba(210, 213, 255, 0.3);
 }
+
 /* Body styles */
-.dashboard_container{
+.dashboard_container {
 	color: #38494f;
 	display: flex;
 	justify-content: center;
 	padding-top: 80px;
-	background-color: rgba(201, 201, 196, 0.3) ;
+	background-color: rgba(201, 201, 196, 0.3);
 }
-.dashboard{
+
+.dashboard {
 	display: flex;
 	width: 85%;
 	height: auto;
 	justify-content: space-between;
 }
-.left_dashboard{
+
+.left_dashboard {
 	display: inline-flex;
 	flex-direction: column;
 	width: 72%;
 	height: 100%;
 }
-.right_dashboard{
+
+.right_dashboard {
 	display: inline-flex;
 	width: 28%;
 	height: 100%;
 	flex-direction: column;
 	padding-left: 50px;
 }
-.mini_dashboard{
+
+.mini_dashboard {
 	display: flex;
 	height: 140px;
 	width: 100%;
@@ -129,30 +151,37 @@ header{
 	background-color: #fff;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
-._user_details{
+
+._user_details {
 	height: 100%;
 	display: inline-flex;
 	align-items: center;
 }
-.avatar_L{
+
+.avatar_L {
 	padding-right: 20px;
 }
-.details{
+
+.details {
 	text-align: left;
 }
-.Exercise_details{
+
+.Exercise_details {
 	height: 100%;
 }
-.Lesson_details{
+
+.Lesson_details {
 	height: 100%;
 }
-._separator{
+
+._separator {
 	display: inline-flex;
 	height: 80%;
 	width: 2px;
 	background-color: rgba(201, 201, 196, 0.7);
 }
-.recent_lessons_main{
+
+.recent_lessons_main {
 	margin: 10px 0px;
 	align-items: center;
 	display: flex;
@@ -162,14 +191,16 @@ header{
 	background-color: #fff;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
-.recent_lessons_main_icon_container{
+
+.recent_lessons_main_icon_container {
 	display: inline-flex;
 	width: 190px;
 	height: 100%;
 	background-color: rgb(99, 232, 234);
 	-webkit-border-radius: 2px;
 }
-.resume_lesson_main_button{
+
+.resume_lesson_main_button {
 	justify-content: center;
 	align-self: flex-end;
 	display: inline-flex;
@@ -178,17 +209,20 @@ header{
 	background-color: rgb(99, 232, 234);
 	-webkit-border-radius: 2px;
 }
-.resume_lesson_main_button:hover{
+
+.resume_lesson_main_button:hover {
 	background-color: rgb(24, 188, 190);
 }
-.recent_lessons_main_details_container{
+
+.recent_lessons_main_details_container {
 	width: 100%;
 	padding: 40px 40px;
 	justify-content: space-between;
 	align-items: center;
 	display: inline-flex;
 }
-.recent_lessons{
+
+.recent_lessons {
 	margin: 10px 0px;
 	display: flex;
 	align-items: center;
@@ -198,21 +232,24 @@ header{
 	background-color: #fff;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
-.recent_lessons_details_container{
+
+.recent_lessons_details_container {
 	width: 100%;
 	padding: 40px 40px;
 	justify-content: space-between;
 	align-items: center;
 	display: inline-flex;
 }
-.recent_lessons_icon_container{
+
+.recent_lessons_icon_container {
 	display: inline-flex;
 	width: 140px;
 	height: 100%;
 	background-color: rgb(99, 232, 234);
 	-webkit-border-radius: 2px;
 }
-.resume_lesson_button{
+
+.resume_lesson_button {
 	justify-content: center;
 	align-items: center;
 	display: inline-flex;
@@ -221,35 +258,43 @@ header{
 	background-color: rgb(99, 232, 234);
 	-webkit-border-radius: 2px;
 }
-.resume_lesson_button:hover{
+
+.resume_lesson_button:hover {
 	background-color: rgb(24, 188, 190);
 }
-.lesson_progress_bar_container{
+
+.lesson_progress_bar_container {
 	height: 10px;
 	display: flex;
 	align-items: center;
 }
-.lesson_progress_bar{
+
+.lesson_progress_bar {
 	width: 80px;
 	display: inline-flex;
 	padding-right: 20px;
 }
-progress{
+
+progress {
 	height: 5px;
 	border: 0;
 }
-progress::-webkit-progress-bar{
+
+progress::-webkit-progress-bar {
 	background-color: rgb(232, 232, 232);
 	border-radius: 5px;
 }
-progress::-webkit-progress-value{
+
+progress::-webkit-progress-value {
 	background-color: rgb(99, 232, 234);
 	border-radius: 5px;
 }
-#sub_head{
+
+#sub_head {
 	font-size: 20px;
 }
-.calendar_container{
+
+.calendar_container {
 	color: rgba(168, 168, 255, 1.0);
 	display: flex;
 	width: 100%;
@@ -259,13 +304,15 @@ progress::-webkit-progress-value{
 	justify-content: space-around;
 	padding-bottom: 50px;
 }
-.archivement_container{
+
+.archivement_container {
 	display: flex;
 	flex-flow: wrap;
 	width: 100%;
 	height: auto;
 }
-.individual_archivement_container{
+
+.individual_archivement_container {
 	color: rgba(168, 168, 255, 1.0);
 	display: inline-flex;
 	width: 100px;
@@ -273,32 +320,38 @@ progress::-webkit-progress-value{
 	flex-direction: column;
 	align-items: center;
 }
-.archivement_box{
+
+.archivement_box {
 	width: 80px;
 	height: 80px;
 	background-color: green;
 }
-.calendar{
+
+.calendar {
 	height: 192px;
 	align-self: flex-start;
 }
-.table_date{
+
+.table_date {
 	background-color: rgba(210, 213, 255, 0.3);
-	width : 30px;
+	width: 30px;
 	height: 30px;
 	-webkit-border-radius: 2px;
 }
-.table_date_key{
+
+.table_date_key {
 	background-color: yellow;
-	width : 15px;
+	width: 15px;
 	height: 15px;
 	-webkit-border-radius: 2px;
 }
-.archivement_buttons_container{
+
+.archivement_buttons_container {
 	padding-top: 10px;
 	height: 80px;
 }
-.archivement_buttons{
+
+.archivement_buttons {
 	margin-right: 10px;
 	display: inline-flex;
 	justify-content: center;
@@ -308,65 +361,76 @@ progress::-webkit-progress-value{
 	background-color: rgba(168, 168, 255, 1.0);
 	-webkit-border-radius: 15px;
 }
+
 /* Footer styles */
-footer{
+footer {
 	color: #38494f;
 	display: flex;
 	width: 100%;
 	height: 380px;
 	justify-content: center;
 }
-.footer_container{
+
+.footer_container {
 	width: 85%;
 	justify-content: space-between;
 }
-.column_1{
+
+.column_1 {
 	width: 30%;
 	display: inline-flex;
 	flex-direction: column;
 }
-.column_2{
+
+.column_2 {
 	width: 20%;
 	display: inline-flex;
 	flex-direction: column;
 }
-.column_3{
+
+.column_3 {
 	width: 20%;
 	display: inline-flex;
 	flex-direction: column;
 }
-.column_4{
+
+.column_4 {
 	width: 25%;
 	display: inline-flex;
 	flex-direction: column;
 }
-.row_1{
+
+.row_1 {
 	display: flex;
 	align-self: flex-end;
 }
+
 /*slide page*/
-.body_container{
+.body_container {
 	display: flex;
 	width: 100%;
 	height: auto;
 	justify-content: center;
 	background-color: rgba(201, 201, 196, 0.3);
 }
-.courses_container{
+
+.courses_container {
 	padding-top: 50px;
 	display: flex;
 	flex-direction: column;
 	width: 85%;
 	height: auto;
 }
-.main_tile_container{
+
+.main_tile_container {
 	height: 450px;
 	width: 100%;
 	background-color: green;
 	-webkit-border-radius: 2px;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
-.mini_tile_container{
+
+.mini_tile_container {
 	display: flex;
 	margin: 20px 0px 20px 0px;
 	height: 324px;
@@ -375,14 +439,16 @@ footer{
 	-webkit-border-radius: 2px;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
-.language_course_container{
+
+.language_course_container {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	height: auto;
 	padding-bottom: 50px;
 }
-.lesson_tile_container{
+
+.lesson_tile_container {
 	margin: 10px 10px;
 	display: inline-flex;
 	align-items: center;
@@ -393,7 +459,8 @@ footer{
 	-webkit-border-radius: 2px;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
-.lesson_tile{
+
+.lesson_tile {
 	align-items: center;
 	display: flex;
 	width: 200px;
@@ -401,66 +468,77 @@ footer{
 	flex-direction: column;
 
 }
-.lesson_icon{
+
+.lesson_icon {
 	background-color: blue;
 	width: 100px;
 	height: 100px;
 }
+
 /* Responsiveness */
-@media (max-width: 800px){
-	.dashboard{
+@media (max-width: 800px) {
+	.dashboard {
 		flex-wrap: wrap;
 	}
-	.left_dashboard{
+
+	.left_dashboard {
 		width: 100%;
 		height: auto;
 	}
-	.right_dashboard{
+
+	.right_dashboard {
 		width: 100%;
 		height: auto;
 		padding-left: 0px;
 	}
-	.page_links_container, 
+
+	.page_links_container,
 	.user_info,
-	.down_arrow_container
-	.profile_separator_container,
-	.notifcon_container{
+	.down_arrow_container .profile_separator_container,
+	.notifcon_container {
 		display: none;
 	}
 }
-@media (max-width: 500px){
+
+@media (max-width: 500px) {
+
 	.mini_dashboard,
 	.recent_lessons_main_icon_container,
 	.lesson_progress_bar_container,
 	.recent_lessons_icon_container,
 	.archivement_buttons_container,
-	.right_dashboard{
+	.right_dashboard {
 		display: none;
 	}
+
 	.resume_lesson_main_button,
-	.resume_lesson_button{
+	.resume_lesson_button {
 		display: flex;
 		width: 100%;
 		align-self: normal;
 	}
+
 	.recent_lessons_main_details_container,
-	.recent_lessons_details_container{
+	.recent_lessons_details_container {
 		flex-wrap: wrap;
-		padding: 10px 10px ;
+		padding: 10px 10px;
 	}
+
 	.details_main,
-	.details_recent_lessons{
+	.details_recent_lessons {
 		display: flex;
 		width: 100%;
 		flex-wrap: wrap;
 	}
-	.footer_container{
+
+	.footer_container {
 		flex-direction: column;
 	}
+
 	.column_1,
 	.column_2,
 	.column_3,
-	.column_4{
+	.column_4 {
 		display: flex;
 		width: 100%;
 	}
